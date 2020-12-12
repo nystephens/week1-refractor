@@ -124,7 +124,7 @@ p {
 }
 
 /* consolidated h2 margin and font size styling */
-.content div h2 {
+.content section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
