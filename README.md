@@ -1,1 +1,3 @@
 # week1-refractor
+
+I have added notes and proper indentation to major HTML sections and all CSS selectors.  I have consolidated some CSS code to be more streamlined.  The <a href> tags in the navigation were not working so I debugged that by adding proper identification using ids.  Alt tags have been added to all images.  I made sure that the title was the name of the website and not just "website", allowing for better SEO.
