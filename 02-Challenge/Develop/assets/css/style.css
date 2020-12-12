@@ -1,0 +1,212 @@
+/*CSS Rules*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* header padding font family and color*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* bring header in line, change font size */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* change color of "SEO" in name sligtly to accentuate */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* navigation styling */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* navigation list style type set to none */
+header nav ul {
+    list-style-type: none;
+}
+
+/* bring nav link items in line */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* set color of nav list items with no decoration */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* font size for descriptions of services */
+p {
+    font-size: 16px;
+}
+
+/* hero picture and parameters */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* style SEO and Social Media photos to float left */
+/* added max-height */
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/* style Online Reputation Mgmt photo to float right */
+/* added max-height */
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* bring content class in line and set width and margin */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* benefits class overall styling */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Lead Generation color and margin */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Brand Awareness color and margin */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Cost Management color and margin */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Lead Generation title alignment */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Brand Awareness title arrangement */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Cost Mangement title arrangement */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Lead Generation graphic size and placement */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Brand Awareness graphic size and placement */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Cost Management graphic size and placement */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Search engine Optimization class styling */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Online Reputation Management class styling  */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Social Media Marketing class styling */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* consolidated h2 margin and font size styling */
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* footer styling */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Made with <3 by Horiseon footer font size */
+.footer h2 {
+    font-size: 20px;
+}
